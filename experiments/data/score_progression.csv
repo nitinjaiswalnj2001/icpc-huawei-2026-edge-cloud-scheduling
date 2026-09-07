@@ -1,0 +1,16 @@
+key,label,total_score,confidence,notes
+historical_baseline,Historical starting baseline,15595.199,approximate,Historical working-note baseline; exact 22-case vector was not preserved.
+bank_16141,Banked control,16141.8206885046,exact_public,Exact 22-case control vector preserved in Stage 0.
+preflow15_w2k,PREFLOW15 W2K,16299.7290730249,exact_public,Static bounded Prefill WIP at 2K.
+preflow15_elastic,PREFLOW15 ELASTIC2K,16299.7770446492,exact_public,Elastic starvation relief on top of 2K WIP.
+preflow9_w2k,PREFLOW9 static W2K,16300.2704323997,exact_public,Static 2K Prefill WIP on #9.
+preflow9_adaptive,PREFLOW9 adaptive 2K→4K,16300.5256739172,exact_public,Early 2K backpressure then permanent 4K widening after Prefill progress.
+warm95,WARM4 ~95%,16304.4470237562,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+warm90,WARM4 90%,16305.4569196286,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+warm85,WARM4 85%,16307.3459205415,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+warm80,WARM4 READY80,16308.1942210963,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+concurrent80,CONCURRENT80,16310.2365487077,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+concurrent775,CONCURRENT77.5,16310.5487539788,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+concurrent725,CONCURRENT72.5,16310.9138695775,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+concurrent70,CONCURRENT70,16315.4610096606,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.
+final65,FINAL CONCURRENT65,16315.7938558663,exact_public,Only public #4 changed relative to the 16300.525674 bank in this isolated sequence.

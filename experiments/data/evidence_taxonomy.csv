@@ -1,0 +1,5 @@
+evidence,meaning,allowed_claim
+public_exact,Exact Codeforces public-judge score/metric supplied or preserved.,May be stated as publicly verified.
+public_approx,Public behavior/delta is known from notes but exact full result is not preserved.,State as approximate and identify the missing exact record.
+local_archived,Result from the archived local interactor/synthetic case.,Use for hypothesis generation/safety only; never call it a public gain.
+historical_note,Observation preserved in working notes without a complete result artifact.,Use as project-history context with explicit qualification.

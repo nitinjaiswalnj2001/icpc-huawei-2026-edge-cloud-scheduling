@@ -1,0 +1,28 @@
+{
+  "stage": 3,
+  "generated_on": "2026-08-30",
+  "public_or_historical_experiments": 46,
+  "selected_local_diagnostics": 10,
+  "final_public_total": 16315.7938558663,
+  "exact_bank_16141_to_final_gain": 173.9731673617007,
+  "historical_approx_baseline_to_final_gain": 720.5948558663003,
+  "status_counts": {
+    "banked": 10,
+    "rejected": 12,
+    "baseline": 2,
+    "candidate": 7,
+    "banked_intermediate": 1,
+    "no-op": 13,
+    "final": 1
+  },
+  "evidence_counts": {
+    "public_exact": 43,
+    "historical_note": 2,
+    "public_approx": 1
+  },
+  "final_case4_points": 819.0202365952,
+  "protected_case20_points": 998.0785092863,
+  "exact_banked_score_milestones": 14,
+  "note": "Rejected public probes remain in the experiment ledger/threshold curve but are not counted as banked score progression milestones.",
+  "exact_reconstructed_public_vectors": 15
+}

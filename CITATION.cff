@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you reference this engineering case study, please cite it using this metadata."
+title: "ICPC Huawei 2026 — Edge-Cloud Collaborative Scheduling"
+type: software
+authors:
+  - family-names: "Jaiswal"
+    given-names: "Nitin"
+version: "1.0.0"
+date-released: "2026-09-02"
+abstract: >-
+  Evidence-backed engineering reconstruction of an iterative C++ scheduler for
+  Codeforces 2251A, covering bounded Prefill work-in-progress, specialist
+  routing, coherent Decode waves, concurrent warm scheduling, negative results,
+  and a final preserved 22-case public score of 16315.7938558663.
+keywords:
+  - scheduling
+  - C++
+  - edge computing
+  - cloud computing
+  - LLM inference
+  - optimization
+  - competitive programming
+  - performance engineering
+url: "https://codeforces.com/contest/2251"

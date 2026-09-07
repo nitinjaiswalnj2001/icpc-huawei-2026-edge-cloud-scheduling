@@ -1,0 +1,60 @@
+# C / C++ build outputs
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+
+# Local build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Local judge / scratch outputs
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.profraw
+*.profdata
+.local/
+scratch/
+
+# Python caches used by local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / editor state
+.vscode/
+.idea/
+*.code-workspace
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Stage-0/private archival material should remain outside the public repository
+raw_exports/
+raw_history/
+*.zip
+
+# Keep generated report PDF in Git; only ignore temporary LaTeX/build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/_build/

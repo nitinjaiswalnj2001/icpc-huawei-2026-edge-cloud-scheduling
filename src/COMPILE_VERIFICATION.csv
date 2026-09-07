@@ -1,0 +1,15 @@
+file,status,compiler
+src/00_baseline/nova_portfolio_16024_reference.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/00_baseline/sprintk2_banked_16042_reference.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/01_portfolio_scheduler/banked_16141_8207.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/01_portfolio_scheduler/lexical_compaction_exact.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/02_preflow15/preflow15_elastic2k.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/03_preflow9/preflow9_adaptive_2k4k.cpp,PASS,g++ -std=c++17 -O2 -pipe -fsyntax-only
+src/04_makespan12/makespan12_v1_lpt.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/05_phase_warm/warm4_95_bank_16304_4470.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/05_phase_warm/warm4_ready80.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/05_phase_warm/warm4_ready85.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/06_concurrent_warm/concurrent60_boundary_rejected.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/06_concurrent_warm/concurrent65_final_verified.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/06_concurrent_warm/concurrent70_v2.cpp,PASS,g++ -std=c++17 -fsyntax-only
+src/06_concurrent_warm/concurrent80_v1.cpp,PASS,g++ -std=c++17 -fsyntax-only

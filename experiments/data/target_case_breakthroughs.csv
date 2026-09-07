@@ -1,0 +1,5 @@
+case,initial_points,final_points,gain,main_mechanism,evidence
+#4,803.7520546461,819.0202365952,15.26818194910004,One-shot warm Decode epoch + concurrent residual Prefill overlap,public_exact
+#9,735.9913124111,736.7399416791,0.7486292679999451,Adaptive Prefill WIP: 2K startup → 4K after Prefill progress,public_exact
+#12,799.108298,800.4563453039,1.348047303899989,Early longest-P_PROC-first (LPT) admission,public_approx baseline; exact final
+#15,714.7974317905,872.7537879351,157.95635614460002,Bounded Prefill WIP / completion conveyor with elastic starvation relief,public_exact
