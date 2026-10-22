@@ -8,6 +8,7 @@
 [![Public score](https://img.shields.io/badge/public%20score-16315.793856-2E8B57)](experiments/data/final_public_22_cases.csv)
 [![Dataset checks](https://img.shields.io/badge/dataset%20checks-111%2F111%20passing-2E8B57)](experiments/validate_dataset.py)
 [![Evidence](https://img.shields.io/badge/evidence-public%20%2B%20local%20separated-555555)](experiments/DATA_DICTIONARY.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2E8B57)](LICENSE)
 
 [Final submission](final/final_submission.cpp) · [Technical report](report/ICPC_Huawei_2026_Edge_Cloud_Scheduling_Technical_Report.pdf) · [Architecture](docs/architecture/SCHEDULER_ARCHITECTURE.md) · [Experiment ledger](experiments/data/experiment_ledger.csv) · [Optimization journey](docs/journey/01_JOURNEY_OVERVIEW.md)
 
@@ -254,9 +255,16 @@ Submission evidence and frozen hashes are available under [`provenance/`](proven
 The completed 15-page research-style technical report is available as [PDF](report/ICPC_Huawei_2026_Edge_Cloud_Scheduling_Technical_Report.pdf) and [editable DOCX](report/ICPC_Huawei_2026_Edge_Cloud_Scheduling_Technical_Report.docx). It is generated from the same curated code history, experiment dataset, architecture documentation, and optimization journey used by this README.
 
 
-## Citation and reuse
+## Author, license, and attribution
 
-A machine-readable citation file is provided as [`CITATION.cff`](CITATION.cff). The repository is published without an explicit open-source software license by default; see [`COPYRIGHT.md`](COPYRIGHT.md) for the publication notice. Organizer branding, contest statements, and screenshots remain third-party material.
+**Author:** [Nitin Jaiswal](https://github.com/nitinjaiswalnj2001)  
+**Copyright:** © 2026 Nitin Jaiswal.
+
+The author's original C++ scheduler, Python utilities, and associated original software documentation are released under the [MIT License](LICENSE). If you redistribute licensed software, please retain the copyright and license notice as required by MIT. The [copyright and publication notice](COPYRIGHT.md) explains the scope and third-party exclusions.
+
+**A small request for recognition:** If you use, adapt, or reference the implementation or its ideas, I would appreciate credit to **Nitin Jaiswal** and a link to [this repository](https://github.com/nitinjaiswalnj2001/icpc-huawei-2026-edge-cloud-scheduling). This is a courtesy request, not an additional restriction on MIT-licensed code.
+
+For academic citations, use [`CITATION.cff`](CITATION.cff) or GitHub's **Cite this repository** feature.
 
 ---
 

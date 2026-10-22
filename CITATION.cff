@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you reference this engineering case study, please cite it using this metadata."
+message: "If this software or engineering case study informs your work, please credit Nitin Jaiswal and cite this repository."
 title: "ICPC Huawei 2026 — Edge-Cloud Collaborative Scheduling"
 type: software
 authors:
@@ -21,4 +21,6 @@ keywords:
   - optimization
   - competitive programming
   - performance engineering
-url: "https://codeforces.com/contest/2251"
+url: "https://github.com/nitinjaiswalnj2001/icpc-huawei-2026-edge-cloud-scheduling"
+repository-code: "https://github.com/nitinjaiswalnj2001/icpc-huawei-2026-edge-cloud-scheduling"
+license: MIT
